@@ -1,4 +1,4 @@
-
+"""Application entry point."""
 from flask_wtforms import create_app
 
 app = create_app()
