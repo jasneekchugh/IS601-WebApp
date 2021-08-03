@@ -28,3 +28,9 @@ services:
     container_name: "Flask_App6"
     ports:
       - "5007:5007"
+
+  app7:
+    build: ./flask_sqlalchemy_tutorial/flask-sqlalchemy-tutorial
+    container_name: "Flask_App7"
+    ports:
+      - "5008:5008"
