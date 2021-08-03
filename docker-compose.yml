@@ -16,3 +16,9 @@ services:
     container_name: "Flask_App4"
     ports:
       - "5005:5005"
+
+  app5:
+    build: ./Flask_Blueprint_Tutorial/flask-blueprint-tutorial
+    container_name: "Flask_App5"
+    ports:
+      - "5006:5006"
