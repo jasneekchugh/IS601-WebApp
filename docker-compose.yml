@@ -1,0 +1,7 @@
+version: "2"
+services:
+  app2:
+    build: ./routing_flask
+    container_name: "Flask_App_2"
+    ports:
+      - "5003:5003"
