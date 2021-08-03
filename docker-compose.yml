@@ -34,3 +34,9 @@ services:
     container_name: "Flask_App7"
     ports:
       - "5008:5008"
+
+  app8:
+    build: ./flasklogin_tutorial/flask-login-tutorial
+    container_name: "Flask_App8"
+    ports:
+      - "5009:5009"
