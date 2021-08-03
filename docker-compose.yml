@@ -22,3 +22,9 @@ services:
     container_name: "Flask_App5"
     ports:
       - "5006:5006"
+
+  app6:
+    build: ./flask-assets-tutorial
+    container_name: "Flask_App6"
+    ports:
+      - "5007:5007"
