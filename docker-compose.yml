@@ -40,3 +40,9 @@ services:
     container_name: "Flask_App8"
     ports:
       - "5009:5009"
+
+  app9:
+    build: ./flask_session_tutorial/flask-session-tutorial
+    container_name: "Flask_App9"
+    ports:
+      - "5010:5010"
