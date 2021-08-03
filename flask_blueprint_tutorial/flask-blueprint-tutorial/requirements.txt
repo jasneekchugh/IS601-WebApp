@@ -1,0 +1,14 @@
+Flask
+Flask-SQLAlchemy
+flask-redis
+flask-assets
+requests
+faker
+
+jinja2
+
+tenacity
+uwsgi
+webassets
+werkzeug
+
